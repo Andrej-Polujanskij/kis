@@ -1,0 +1,217 @@
+header{
+  position: relative;
+  z-index: 5;
+}
+.header-row {
+  &---top {
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    @media all and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &---main {
+    padding: 15px 0;
+    box-shadow: 0px 6px 6px -6px rgba(0, 0, 0, .1);
+    background-color: #ffffff;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+}
+
+.top-menu {
+  display: flex;
+  justify-content: flex-end;
+
+  ul {
+    display: flex;
+
+    li {
+      margin: 0 14px;
+      @media all and (min-width: 768px) {
+        &:hover a {
+          color: $lightBlack;
+        }
+      }
+
+      a {
+        color: $lightGray;
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        transition: ease-in-out 0.3s;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.fast-contact {
+  display: flex;
+  align-items: center;
+  margin-left: 14px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  @media all and (min-width: 768px) {
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &__icon {
+    @extend %bgImage;
+    background-image: url("../images/icons/orange-phone.svg");
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+  }
+
+  &__number {
+    a {
+      color: $orange;
+      font-family: $sub_font;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.7px;
+      text-decoration: none;
+    }
+  }
+}
+
+.header-main_menu {
+  @media all and (max-width: 768px) {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    margin: 0 -24px;
+    @media all and (max-width: 1024px) {
+      margin: 0 -12px;
+    }
+
+    li {
+      margin: 0 24px;
+      @media all and (max-width: 1024px) {
+        margin: 0 12px;
+      }
+      &.current_page_item{
+        a{
+        color: $orange;
+        border-color: $orange;
+        }
+      }
+
+      a {
+        color: #3f3f3e;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.8px;
+        transition: ease-in-out 0.3s;
+        padding-bottom: 5px;
+        border-bottom: 2px solid transparent;
+        @media all and (min-width: 768px) {
+          &:hover {
+            color: $orange;
+            border-color: $orange;
+          }
+        }
+      }
+    }
+  }
+}
+
+.mobile {
+  display: none;
+  @media all and (max-width: 768px) {
+    display: block;
+    &-wrapper{
+      display: flex;
+    }
+  }
+
+  &_fast-contact {
+    @extend %bgImage;
+    width: 23px;
+    height: 20px;
+    background-image: url("../images/icons/fast-phone.svg");
+    margin-right: 20px;
+  }
+
+  &-menu{
+    &---block{
+      display: none;
+      &.active{
+        display: block;
+        .mobile-menu{
+          top: 70px;
+          opacity: 1;
+        }
+      }
+    }
+    width: 100%;
+    position: absolute;
+    height: calc(100vh - 70px);
+    background: white;
+    top: -50%;
+    opacity: 0;
+    transition: ease-in-out 0.4s;
+    z-index: 10;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+    &__main{
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: normal;
+      line-height: 26px;
+      text-align: center;
+      a{
+        color: $orange;
+        padding: 10px 0;
+        display: block;
+      }
+    }
+    &__sub{
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.8px;
+      line-height: 20px;
+      text-align: center;
+      a{
+        color: $lightBlack;
+        padding: 10px 0;
+        display: block;
+      }
+    }
+    &__soc{
+      margin-top: 20px;
+    }
+
+    &__bottom{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: $orange;
+      padding: 36px;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 26px;
+      text-align: center;
+      a{
+        color: white;
+      }
+    }
+  }
+}
+

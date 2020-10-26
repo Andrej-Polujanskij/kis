@@ -1,0 +1,96 @@
+.servicies{
+  &-item{
+    order: 3;
+    &---top{
+      @media all and (max-width: 768px){
+        padding-top: 0;
+      }
+    }
+    &---white{
+      @media all and (max-width: 768px){
+        background-color: white;
+        padding: 50px 20px 0 20px;
+        width: calc(100% + 40px);
+        margin-left: -20px;
+      }
+    }
+    &---last{
+      @media all and (max-width: 768px){
+        padding: 0;
+        order: 2;
+        width: 100%;
+      }
+    }
+  }
+  &---price{
+    display: block;
+    padding: 0;
+    text-align: left;
+  }
+  &---note{
+    border-bottom: 1px solid #c6c6c6;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: $green;
+    text-transform: uppercase;
+    padding-top: 20px;
+  }
+
+  &---bottom--text{
+    p{
+      text-align: left;
+    }
+  }
+  &---check{
+    margin-bottom: 0;
+  }
+
+  &-form{
+    &__title{
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 26px;
+      padding-bottom: 30px;
+      margin: 0 10px;
+      width: 100%;
+      @media all and (max-width: 768px){
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  &__block{
+    &---small{
+      justify-content: space-between;
+      margin: 0;
+      .help-form__item{
+        width: calc(50% - 5px);
+      }
+    }
+  }
+  &---help-form__item{
+    justify-content: space-between;
+    padding: 20px 0;
+    @media all and (max-width: 768px){
+      padding: 10px 0;
+    }
+  }
+}
+
+form.servicies-form{
+  margin: 0;
+  justify-content: space-between;
+}
+
+.hidden{
+  display: none;
+  &.active{
+    display: block;
+  }
+}
+.help-item__title.hidden{
+  height: 76px;
+}
+.flat_number__input{
+  margin-top: 0;
+}

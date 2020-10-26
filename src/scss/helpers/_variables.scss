@@ -1,0 +1,66 @@
+$black: #000000;
+$lightBlack: #3f3f3e;
+$white: #FFFFFF;
+$lightGray: #767676;
+$orange: #ff6300;
+$grayBG: #f7f7f7;
+$green: #4cd882;
+
+//$sub_font: 'Montserrat ', sans-serif;
+
+%bgImage {
+  background: no-repeat scroll center center;
+}
+
+%buttonHover{
+  @media all and (min-width: 768px) {
+    &:hover {
+      color: white;
+      background: $orange;
+      box-shadow: 0 0 10px rgba(253, 99, 32, 0.6);
+    }
+  }
+}
+
+%font50 {
+  color: $lightBlack;
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 700;
+  @media all and (max-width: 1024px) {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  @media all and (max-width: 768px) {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+%font20 {
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 26px;
+  @media all and (max-width: 768px) {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
+
+%font30{
+  color: $orange;
+  font-size: 30px;
+  line-height: 55px;
+  font-weight: 700;
+  @media all and (max-width: 768px) {
+    font-size: 21px;
+    line-height: 26px;
+  }
+}
+
+%font14gray {
+  color: $lightGray;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  line-height: 18px;
+}

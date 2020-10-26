@@ -1,0 +1,10 @@
+.logo {
+  @extend %bgImage;
+  width: 213px;
+  height: 70px;
+  @media all and (max-width: 768px){
+    width: 132px;
+    height: 40px;
+    background-size: contain;
+  }
+}

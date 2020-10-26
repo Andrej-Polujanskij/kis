@@ -1,0 +1,90 @@
+.form__item{
+  position: relative;
+}
+.text-input{
+  max-width: 304px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  background-color: #ffffff;
+  color: #1f1f1f;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  display: block;
+  padding: 18px 0 6px 15px;
+  margin-bottom: 10px;
+  resize: none;
+  max-height: 100px;
+  outline: none;
+}
+
+.floating-label{
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  color: #767676;
+  font-size: 14px;
+  font-weight: 500;
+  transition: ease-in-out 0.3s;
+}
+
+.text-input:focus + .floating-label, .text-input:not(:placeholder-shown) + .floating-label{
+  top: 6px;
+  font-size: 10px;
+}
+//.text-input.error + .floating-label{
+//  top: -20px;
+//  color: #848798;
+//  font-size: 12px;
+//}
+
+.text-input:focus,
+.text-input:not(:placeholder-shown) {
+  border-color: $orange;
+  background-color: #ffffff;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.checkbox{
+  min-width: 21px;
+  height: 21px;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #c6c6c6;
+  &.check{
+    @extend %bgImage;
+    background-image: url("../images/icons/check.png");
+  }
+  &-text{
+    color: #767676;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    a{
+      color: $orange;
+    }
+  }
+}
+
+.submit-input{
+  border-radius: 30px;
+  border: 2px solid #ff631f;
+  color: #ff6300;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  padding: 12px 47px;
+  display: block;
+  width: max-content;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+  background-color: #f7f7f7;
+  @extend %buttonHover;
+}

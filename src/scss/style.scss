@@ -1,0 +1,64 @@
+@import "helpers/helpers";
+@import "blocks/blocks";
+@import "pages/pages";
+@import "../../node_modules/select2/dist/css/select2.min.css";
+
+html body * {
+    font-family: $font;
+    color: $lightBlack;
+}
+//$sub_font: 'Montserrat ', sans-serif;
+
+.container {
+    max-width: 1366px;
+    padding: 0 82px;
+
+    margin: 0 auto;
+    @media all and (max-width: 1024px){
+        padding: 0 60px;
+    }
+    @media all and (max-width: 768px){
+        padding: 0 20px;
+    }
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.error-validation-class{
+    border-color: red!important;
+  box-shadow: 0px 0px 2px red;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.margin-left{
+    margin-left: 0;
+}
+.margin-0{
+    margin: 0;
+}
+text-input-disabled{
+    display: none;
+}
+.select2-container .select2-results__option.optInvisible {
+    display: none;
+}
+*{
+    outline: none;
+}
+input[type='checkbox']:not(.mobile-btn) {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.slick-slide{
+    max-height: 100% !important;
+    height: inherit!important;
+}
+p{
+    line-height: 22px!important;
+}

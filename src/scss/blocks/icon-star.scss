@@ -1,0 +1,9 @@
+.icon-star{
+  @extend %bgImage;
+  width: 13px;
+  height: 12px;
+  background-image: url("../images/icons/icon-star.svg");
+  &---margin{
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,47 @@
+.business{
+  &-section{
+    padding: 30px 0 90px;
+    background-color: $grayBG;
+    @media all and (max-width: 768px) {
+      padding: 0 0 30px 0;
+    }
+    &---btn{
+      margin-top: 25px;
+    }
+  }
+
+  &-wrapper{
+    position: relative;
+  }
+
+  &__image{
+    background: no-repeat scroll 50% 15%;
+    background-size: cover;
+    width: 79.28%;
+    border-radius: 10px;
+    height: 300px;
+    margin-left: auto;
+    @media all and (max-width: 768px) {
+      height: 180px;
+      width: calc(100% + 40px);
+      margin-left: -20px;
+      border-radius: 0;
+    }
+  }
+
+  &__content{
+    background-color: white;
+    padding: 30px 40px 50px 40px;
+    width: 37.52%;
+    position: absolute;
+    top: 30px;
+    @media all and (max-width: 768px) {
+      background-color: $grayBG;
+      padding: 0;
+      padding-top: 30px;
+      width: 100%;
+      position: relative;
+      top: 0;
+    }
+  }
+}

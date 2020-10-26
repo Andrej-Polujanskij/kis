@@ -1,0 +1,115 @@
+.contacts {
+  justify-content: space-between;
+  padding-top: 100px;
+  flex-wrap: wrap;
+  @media all and (max-width: 1024px) {
+    justify-content: space-around;
+  }
+  @media all and (max-width: 768px) {
+    flex-direction: column;
+    padding-top: 30px;
+    //align-items: center;
+  }
+
+  &-hero {
+    padding-bottom: 0;
+    &__btn{
+      @media all and (max-width: 768px) {
+        top: 35px;
+      }
+    }
+    &__decor{
+      @media all and (max-width: 768px) {
+        top: 10px;
+      }
+    }
+  }
+
+  &_column {
+    max-width: 33%;
+    order: 2;
+    @media all and (max-width: 1024px) {
+      max-width: 50%;
+    }
+    @media all and (max-width: 768px) {
+      max-width: 100%;
+    }
+
+    &---text {
+      p {
+        @extend %font14gray;
+      }
+
+      @media all and (max-width: 1024px) {
+        order: 3;
+        width: 100%;
+        max-width: 100%;
+        padding-top: 30px;
+      }
+    }
+
+    &---contacts {
+      padding: 0 25px;
+      @media all and (max-width: 1024px) {
+        padding: 0 25px 0 0;
+      }
+      @media all and (max-width: 768px) {
+        padding: 0;
+      }
+    }
+
+    &---form {
+      .text-input{
+        @media all and (max-width: 768px) {
+          max-width: 100%;
+        }
+      }
+      .g-recaptcha{
+        max-width: 100%;
+      }
+    }
+
+    &__heading {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 26px;
+      padding-bottom: 20px;
+    }
+  }
+
+  &-item {
+    display: flex;
+    padding-bottom: 36px;
+
+    &__icon {
+      min-width: 23px;
+      height: 23px;
+      @extend %bgImage;
+      margin-right: 20px;
+      margin-top: 6px;
+    }
+
+    &__text {
+      font-size: 16px;
+      letter-spacing: 0.8px;
+      line-height: 22px;
+
+      &___title {
+        font-weight: 400;
+      }
+
+      &___content {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.form__btn {
+  a {
+    cursor: pointer;
+    padding: 15px 47px;
+  }
+
+  margin-top: 20px;
+}

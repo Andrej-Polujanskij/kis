@@ -1,0 +1,66 @@
+.servicies--select{
+
+}
+//.page-template-template-paslaugu_uzklausa{
+//  .select2-search.select2-search--dropdown{
+//    display: none;
+//  }
+//}
+
+.select2-container--default .select2-selection--single{
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  height: auto;
+  .select2-selection__rendered{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    display: block;
+    padding: 12px 0 12px 15px;
+    color: #1f1f1f;
+  }
+  .select2-selection__arrow{
+    width: 11px;
+    height: 6px;
+    top: 24px;
+    right: 19px;
+    @extend %bgImage;
+    background-image: url("../images/icons/select-arrow.svg");
+    b{
+      display: none;
+    }
+  }
+}
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--single{
+  .select2-selection__arrow{
+    transform: rotate(180deg);
+  }
+}
+.select2-results__option{
+  padding: 12px 0 12px 15px;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected]{
+  background-color: $orange;
+}
+
+#checker__form{
+  .select2-container{
+    margin-right: 10px;
+    @media all and (max-width: 768px) {
+      margin-bottom: 10px;
+    }
+  }
+  .select2-container--default .select2-selection--single{
+    background: transparent;
+    @media all and (max-width: 1024px) {
+      background: white;
+    }
+    @media all and (max-width: 768px) {
+      background: transparent;
+    }
+  }
+}
+.home{
+  .select2-container--open .select2-dropdown--below{
+  }
+}

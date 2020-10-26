@@ -1,0 +1,99 @@
+.section{
+  padding: 30px 0;
+  &-wrapper{
+    z-index: 1;
+    position: relative;
+  }
+  &-gray{
+    background: $grayBG;
+  }
+&-last{
+  padding-bottom: 60px;
+  @media all and (max-width: 768px) {
+    padding-bottom: 30px;
+  }
+}
+  &-image_left{
+    .container{
+      display: flex;
+      padding: 0;
+      @media all and (max-width: 768px) {
+        flex-direction: column;
+      }
+    }
+  }
+  &-image_right{
+    .container{
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 0;
+      @media all and (max-width: 768px) {
+        flex-direction: column;
+      }
+    }
+  }
+
+  &-item{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media all and (max-width: 768px) {
+      width: 100%;
+    }
+
+    &__title{
+      @extend %font50;
+      margin-bottom: 20px;
+    }
+    &__subtitle{
+      p{
+        @extend %font14gray;
+      }
+      margin-bottom: 10px;
+    }
+
+    &---image{
+      @extend  %bgImage;
+      background-size: cover;
+      min-height: 420px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      border-radius: 10px;
+      @media all and (max-width: 768px) {
+        min-height: 240px;
+        margin-bottom: 20px;
+        border-radius: 0;
+      }
+    }
+    &-text_right{
+      padding: 40px;
+      @media all and (max-width: 768px) {
+        padding: 20px;
+      }
+    }
+    &-text_left{
+      padding: 40px;
+      @media all and (max-width: 768px) {
+        padding: 20px;
+      }
+    }
+
+    .section-item__btn{
+      margin-top: 15px;
+    }
+
+    &__list{
+      ul{
+        display: flex;
+        margin: 0 -16px;
+        @media all and (max-width: 450px) {
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+        li{
+          margin: 0 8px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+//.slick-slide{
+//  display: table-cell !important;
+//  float: none !important;
+//}
+
+.slider__image{
+  .slick {
+    &-list{
+      height: 100%;
+    }
+    &-track{
+      height: 100%;
+    }
+    &-slide{
+      float: left!important;
+    }
+  }
+}
+.slick-dots{
+  display: flex;
+  position: absolute;
+  bottom: -34px;
+  left: 0;
+  @media all and (max-width: 768px){
+    left: 20px;
+  }
+  li{
+    width: 14px;
+    height: 14px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    &.slick-active{
+      box-shadow: 0 0 6px rgba(253, 99, 32, 0.6);
+      background-color: #ff6300;
+    }
+    button{
+      display: none;
+    }
+  }
+}

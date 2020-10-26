@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c56f9d68-76bf-46a5-bfbe-87995b862fdb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/scss/pages/header.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/pages/duk.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/js/formsSending.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/template-policy.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/duk.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/style.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/pages/apie_mus.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/pages/homepage.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/blocks/select2.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/blocks/inputs.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/blocks/inner-section.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/template-apie_mus.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/pages/naujienos.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/includes/scripts.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/pages/verslo.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/includes/post_types.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/pages/paslaugu-uzklausa.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/tempalate-verslo.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/js/select2.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/pages/single.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/blocks/logo.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/blocks/hamburger.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/template-naujienos.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/template-kontaktai.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/pages/contacts.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/template-pagalba.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/template-akcijos.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/template-internetas.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/template-paslaugu_uzklausa.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/template-televozija.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/template-internetas+TV.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/pages/pagalba.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/js/formValidate.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/pages/footer.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/functions.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/template-homepage.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/footer.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/blocks/white-decor.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/js/main.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/single.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/header.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/blocks/inner-hero.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/js/slick.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/scss/blocks/icon-star.scss" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1iSbrhUZ11OrCtf9tKSYSZhW5mx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrej\Local Sites\kis\app\public\wp-content\themes\kis" />
+      <recent name="C:\Users\Andrej\Local Sites\kis\app\public\wp-content\themes\kis\src\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrej\Local Sites\kis\app\public\wp-content\themes\kis" />
+      <recent name="C:\Users\Andrej\Local Sites\kis\app\public\wp-content\themes\kis\src\images\akcijos" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="s" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c56f9d68-76bf-46a5-bfbe-87995b862fdb" name="Default Changelist" comment="" />
+      <created>1601904140936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601904140936</updated>
+      <workItem from="1601904142026" duration="6737000" />
+      <workItem from="1601992170649" duration="12537000" />
+      <workItem from="1602051371544" duration="29554000" />
+      <workItem from="1602137578465" duration="21191000" />
+      <workItem from="1602178160369" duration="6623000" />
+      <workItem from="1602224170949" duration="9608000" />
+      <workItem from="1602240407767" duration="5038000" />
+      <workItem from="1602320951620" duration="17576000" />
+      <workItem from="1602410777195" duration="14039000" />
+      <workItem from="1602525225023" duration="625000" />
+      <workItem from="1602690552473" duration="704000" />
+      <workItem from="1602742759085" duration="12183000" />
+      <workItem from="1602769993193" duration="6871000" />
+      <workItem from="1602848421372" duration="13247000" />
+      <workItem from="1603028187953" duration="8737000" />
+      <workItem from="1603089207878" duration="24428000" />
+      <workItem from="1603181049268" duration="23770000" />
+      <workItem from="1603261398835" duration="26950000" />
+      <workItem from="1603306121251" duration="6009000" />
+      <workItem from="1603347852826" duration="27578000" />
+      <workItem from="1603434691826" duration="771000" />
+      <workItem from="1603435607331" duration="24436000" />
+      <workItem from="1603649513400" duration="7572000" />
+      <workItem from="1603697184248" duration="7319000" />
+      <workItem from="1603706321181" duration="14332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2472" y="178" key="#Deployment" timestamp="1603707563355">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="178" key="#Deployment/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1603707563355" />
+    <state x="2554" y="180" key="#Options" timestamp="1603707608837">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2554" y="180" key="#Options/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1603707608837" />
+    <state x="2678" y="0" width="870" height="1040" key="#PHP" timestamp="1603106495435">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2678" y="0" width="870" height="1040" key="#PHP/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1603106495435" />
+    <state x="2547" y="298" key="EditFileWatcherDialog" timestamp="1601908897930">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2547" y="298" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1601908897930" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1603707559620">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1603707559620" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602244308970" />
+    <state x="2381" y="165" key="SettingsEditor" timestamp="1603707256611">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602006333843" />
+    <state x="2381" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1603707256611" />
+    <state x="2618" y="165" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603456451669">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2618" y="165" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602753028520" />
+    <state x="2665" y="-44" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.-220.2048.1112@1920.-220.2048.1112" timestamp="1602354491432" />
+    <state x="2618" y="165" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1603456451669" />
+    <state x="2765" y="170" key="ftp.server.browser" timestamp="1603707544105">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2765" y="170" key="ftp.server.browser/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1603707544105" />
+    <state x="2536" y="240" width="672" height="677" key="run.anything.popup" timestamp="1603703748554">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2536" y="240" width="672" height="634" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603199435720" />
+    <state x="2577" y="37" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.-220.2048.1112@1920.-220.2048.1112" timestamp="1603032753434" />
+    <state x="2536" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1603703748554" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603462069539">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="673" height="679" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602850919901" />
+    <state x="2585" y="21" width="717" height="725" key="search.everywhere.popup/0.0.1920.1040/1920.-220.2048.1112@1920.-220.2048.1112" timestamp="1603030262662" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1603462069539" />
+  </component>
+</project>

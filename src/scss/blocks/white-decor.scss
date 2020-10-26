@@ -1,0 +1,15 @@
+.white-decor{
+  @extend %bgImage;
+  width: 383px;
+  height: 289px;
+  position: absolute;
+  z-index: 0;
+  background-image: url("../images/icons/white-decor.svg");
+  &---offers{
+    top: 0;
+    right: 0;
+  }
+  @media all and (max-width: 1024px) {
+    display: none;
+  }
+}
